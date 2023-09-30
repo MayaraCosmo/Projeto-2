@@ -47,6 +47,9 @@
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
+        flex: 1;
+        align-items: flex-start;
+        align-content: flex-start;
     }
 
     .card {
@@ -67,6 +70,32 @@
     .profissao {
         color: gray;
         margin: 0;
+    }
+
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    a:hover{
+      color: lightgray;
+      cursor: pointer;
+    }
+
+    .footer {
+      display: flex;
+      color: white;
+      background-color:#333;
+      justify-content: space-evenly;
+
+    }
+    .footer-menu {
+      display: flex;
+      align-content: flex-start;
+      flex-direction: column;
+      padding: 20px;
+      gap: 3px;
     }
 
   </style>
@@ -105,8 +134,30 @@
         </div>
     
         </div>
-            
-        
+        <div class="footer"> 
+
+        <div class="footer-menu"> 
+          <h4> Sobre Nós </h4>
+          <a href="#">Quem somos</a>
+          <a href="#">Missão</a>
+          <a href="#">Visão</a>
+        </div> 
+
+        <div class="footer-menu"> 
+          <h4>Contatos</h4>
+          <a href="#">E-mail</a>
+          <a href="#">Telefone</a>
+          <a href="#">Localização</a>
+        </div> 
+
+        <div class="footer-menu"> 
+          <h4>Redes Sociais</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div> 
+
+        </div>
                 
 </body>
 
