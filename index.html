@@ -6,19 +6,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+
+  :root {
+
+  --spacing-tiny: 4px;
+  --spacing-smaller: 8px;
+  --spacing-small: 12px;
+  --spacing-normal: 16px;
+  --spacing-medium: 24px;
+  --spacing-large: 32px;
+  --spacing-huge: 48px;
+  --spacing-massive: 64px;
+  --cor-primaria: #333;
+  --cor-secundária-backgraund: #f4f4f4;
+
+
+
+}
     body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
       display: flex;
       flex-direction: column;
-      background-color: #f4f4f4;
+      background-color: var(--cor-secundária-backgraund);
       height: 100vh;
     }
 
     .header {
+      background-color: var(--cor-primaria);
       display: flex;
       justify-content: space-between;
-      background-color: #333;
       align-items: center;
       padding: 20px;
     }
